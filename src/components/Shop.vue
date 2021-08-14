@@ -110,8 +110,8 @@
           class="col right-container"
           :style="
             showMobileMenu
-              ? ' position: relative;top: 55px;'
-              : ' position: fixed; width: 50%; right: 0; top: 55px;'
+              ? ' position: relative;top: 55px;padding-left: 0px;'
+              : ' position: fixed; width: 50%; right: 0; top: 55px; padding-left: 20px;'
           "
         >
           <div
@@ -335,6 +335,7 @@ body {
 .right-container {
   padding-right: 0px;
   display: block;
+  
 }
 .filter-container {
   padding: 10px;
