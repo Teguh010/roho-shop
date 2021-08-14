@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <div>
-      <div class="row">
+      <div class="main-container">
         <div
           class="left-container"
           :style="showMobileMenu ? 'display:none' : 'display:block'"
@@ -267,6 +267,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: -20px;
 }
 .bg2 {
   background-image: url("../assets/roholanding.png");
